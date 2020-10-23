@@ -13,6 +13,7 @@ class App extends Component {
     return (
       <div className="container">
         <div className="row" style={ stylesApp }>
+          <h2>Employee Management</h2>
           <div className="col-md-6">
             <CreatePost />
           </div>
